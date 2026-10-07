@@ -1,0 +1,9 @@
+{
+  "name":"ideaarena-pro",
+  "private":true,
+  "version":"2.0.0",
+  "type":"module",
+  "scripts":{"dev":"concurrently \"npm run server\" \"npm run client\"","client":"vite","server":"node server/index.js","build":"vite build","start":"node server/index.js"},
+  "dependencies":{"@vitejs/plugin-react":"latest","bcryptjs":"latest","concurrently":"latest","cors":"latest","dotenv":"latest","express":"latest","jsonwebtoken":"latest","mongoose":"latest","multer":"latest","nodemailer":"latest","react":"latest","react-dom":"latest","vite":"latest"},
+  "devDependencies":{}
+}
